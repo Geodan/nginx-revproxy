@@ -1,7 +1,7 @@
 ssl/certs/*
-!ssl/certs/snakeoil.cert
+!ssl/certs/nginx-revproxy.cert
 ssl/private/*
-!ssl/private/snakeoil.key
+!ssl/private/nginx-revproxy.key
 conf.d/*
 !conf.d/default.conf
 log/*
