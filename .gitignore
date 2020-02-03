@@ -1,0 +1,7 @@
+ssl/certs/*
+!ssl/certs/snakeoil.cert
+ssl/private/*
+!ssl/private/snakeoil.key
+conf.d/*
+!conf.d/default.conf
+log/*
