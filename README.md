@@ -1,5 +1,5 @@
 # NGINX-Reverse Proxyserver
-A simple docker container for a configurable NGINX proxy-server with SSL and logging
+A simple docker image (22MB) for a configurable NGINX proxy-server container with SSL and logging
 
 ## Requirements
 * git
@@ -18,4 +18,7 @@ A simple docker container for a configurable NGINX proxy-server with SSL and log
     # nginx is now listening on http://localhost:8081 and https://localhost:8043 with a valid (but self-signed) certificate
 
 # Todo
-* create examples for use on port 80 and 443, auto-restart, combine with UFW
+* create examples for use as a deamon, listening on port 80 and 443, with auto-restart, combine with UFW
+
+# Warning for security
+Do not publish private SSL keys on git. It is generally not advisable to publish server.conf files that reference internal or hidden services on public git repositories.
