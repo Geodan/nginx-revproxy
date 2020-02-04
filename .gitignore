@@ -4,4 +4,3 @@ ssl/private/*
 !ssl/private/nginx-revproxy.key
 conf.d/*
 !conf.d/default.conf
-log/*

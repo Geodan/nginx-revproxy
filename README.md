@@ -3,7 +3,7 @@ A simple docker container for a configurable NGINX proxy-server with SSL and log
 
 ## Requirements
 * git
-* Docker of Docker Desktop
+* Docker or Docker Desktop
 
 ## Installation
 
@@ -15,8 +15,7 @@ A simple docker container for a configurable NGINX proxy-server with SSL and log
     ./build.sh
     ./start.sh
     
-    # nginx is now listening on http://localhost:8081 and https://localhost:8043
+    # nginx is now listening on http://localhost:8081 and https://localhost:8043 with a valid (but self-signed) certificate
 
 # Todo
-* create build.bat and start.bat for windows
 * create examples for use on port 80 and 443, auto-restart, combine with UFW
